@@ -1,0 +1,24 @@
+{
+  "name": "organic-dna-transform",
+  "version": "0.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "organic": "~0.1.1",
+    "underscore": "~1.6.0",
+    "browserify-transform-tools": "~1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/outbounder/organic-dna-transform.git"
+  },
+  "bugs": {
+    "url": "https://github.com/outbounder/organic-dna-transform/issues"
+  },
+  "homepage": "https://github.com/outbounder/organic-dna-transform"
+}
