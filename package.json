@@ -1,5 +1,5 @@
 {
-  "name": "organic-dna-transform",
+  "name": "browserify-transform-dna",
   "version": "0.0.0",
   "main": "index.js",
   "dependencies": {
@@ -15,10 +15,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/outbounder/organic-dna-transform.git"
+    "url": "git://github.com/outbounder/browserify-transform-dna.git"
   },
   "bugs": {
-    "url": "https://github.com/outbounder/organic-dna-transform/issues"
+    "url": "https://github.com/outbounder/browserify-transform-dna/issues"
   },
-  "homepage": "https://github.com/outbounder/organic-dna-transform"
+  "homepage": "https://github.com/outbounder/browserify-transform-dna"
 }
