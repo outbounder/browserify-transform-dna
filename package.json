@@ -5,7 +5,10 @@
   "dependencies": {
     "organic": "~0.1.1",
     "underscore": "~1.6.0",
-    "browserify-transform-tools": "~1.2.1"
+    "browserify-transform-tools": "~1.2.1",
+    "organic-dna-resolvereferences": "https://github.com/outbounder/organic-dna-resolvereferences/archive/master.tar.gz",
+    "organic-dna": "0.0.1",
+    "organic-dna-fold": "0.0.2"
   },
   "devDependencies": {},
   "scripts": {
