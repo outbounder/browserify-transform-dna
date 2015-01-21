@@ -1,20 +1,21 @@
 {
   "name": "browserify-transform-dna",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "dependencies": {
-    "organic": "~0.1.1",
-    "underscore": "~1.6.0",
     "browserify-transform-tools": "~1.2.1",
-    "organic-dna-resolvereferences": "https://github.com/outbounder/organic-dna-resolvereferences/archive/master.tar.gz",
+    "organic": "0.2.0",
     "organic-dna": "0.0.1",
-    "organic-dna-fold": "0.0.2"
+    "organic-dna-branches": "0.0.2",
+    "organic-dna-fold": "0.1.1",
+    "organic-dna-resolvereferences": "0.0.3",
+    "underscore": "~1.6.0"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Boris Filipov",
   "license": "MIT",
   "repository": {
     "type": "git",

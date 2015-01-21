@@ -32,6 +32,8 @@ http://browserify.org/ transformer for `organic-dna`
         $ browserify -t browserify-transform-dna ....
 
 5. See in the browser that `dna.property` is equal to `value`
-6. Read more about `organic-dna`, `organic-dna-fold`, organic-dna-resolvereferences`
-7. Note that `browserify-transform-dna` uses `process.env.CELL_MODE` for folding.
+6. Read more about `[organic-dna](https://github.com/outbounder/organic-dna)`, `[organic-dna-fold](https://github.com/outbounder/organic-dna-fold)`, `[organic-dna-resolvereferences](https://github.com/outbounder/organic-dna-resolvereferences)`
+7. Note that `browserify-transform-dna` uses `process.env.CELL_MODE` for folding
+  * default value is `_development`
+
 
