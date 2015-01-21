@@ -18,7 +18,6 @@ module.exports = transformTools.makeRequireTransform("requireTransform",{
     dna.loadDir(process.cwd()+"/dna", function(){
       resolveReferences(dna)
       foldAndMerge(dna, selectBranch(dna, process.env.CELL_MODE || "_development"))
-      console.log(dna.client)
       cb(null, JSON.stringify(dna.client || {}))
     })
   } else {
