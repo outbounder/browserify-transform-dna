@@ -8,11 +8,11 @@ var resolveReferences = require("organic-dna-resolvereferences")
 var selectBranch = require("organic-dna-branches").selectBranch
 
 module.exports = transformTools.makeRequireTransform("requireTransform",{
-  evaluateArguments: false, 
+  evaluateArguments: false,
   jsFilesOnly: true
 }, function(args, opts, cb) {
 
-  if (args[0] == '"dna"') {
+  if (args[0] == '"dna"' || args[0] == "'dna'") {
 
     var dna = new DNA()
     dna.loadDir(process.cwd()+"/dna", function(){
